@@ -22,7 +22,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1em;
-    padding: 2.5em 0 2em 1em;
+    padding: 2.5em 0 0 1em;
 }
 
 .doctor img {
@@ -51,6 +51,7 @@ body {
     line-height: 160%;
     color: var(--outer-space-color);
     padding-bottom: .5em;
+    padding-top: 2rem;
 }
 
 .lista-clientes {
@@ -130,13 +131,13 @@ body {
     border-radius: 0.5rem;
     background: var(--branco);
     padding: .81rem 1.7rem;
-    margin-left: 1.12rem;
     color: var(--outer-space-color);
 }
 
 .consulta-presencial {
     font-size: 0.75rem;
     color: var(--cinza);
+    padding-bottom: .5rem;
 }
 
 .consulta-presencial::before {
