@@ -53,6 +53,12 @@ body {
     padding-bottom: .5em;
 }
 
+.lista-clientes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .container-paciente {
     background: var(--branco);
     padding-block: 1.28rem;
@@ -92,7 +98,8 @@ body {
 }
 
 .tipo-consulta::before {
-    content: url('../imagens/Camera.svg');padding-right: .5em;
+    content: url('../imagens/Camera.svg');
+    padding-right: .5em;
 }
 
 .info-consulta {
@@ -125,4 +132,32 @@ body {
     padding: .81rem 1.7rem;
     margin-left: 1.12rem;
     color: var(--outer-space-color);
+}
+
+.consulta-presencial {
+    font-size: 0.75rem;
+    color: var(--cinza);
+}
+
+.consulta-presencial::before {
+    content: url("../imagens/adress.svg");
+    padding-right: .5em;
+}
+
+.presencial {
+    padding-right: 2rem;
+    padding-block: .56rem .5rem;
+}
+
+.btn-endereço {
+    box-shadow: 0px 4px 16px 0px rgba(72, 148, 255, 0.16);
+    border-radius: .5rem;
+    border: none;
+    background: var(--azul);
+    width: 100%;
+    padding-block: 1rem;
+    color: var(--branco);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 160%;
 }
