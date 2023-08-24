@@ -162,3 +162,41 @@ body {
     font-weight: 500;
     line-height: 160%;
 }
+
+.rodape-menu {
+    position: relative;
+    top: -109rem;
+}
+
+.acoes {
+    display: flex;
+    gap: 2.25rem;
+    justify-content: center;
+    border-radius: 0.75rem 0.75rem 0rem 0rem;
+    background: var(--branco);
+    box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
+    padding-block: 1rem;
+}
+
+.btn-flutuante {
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+}
+
+.acoes-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.acoes-text {
+    line-height: 160%;
+    font-size: 0.75rem;
+}
+
+.acoes-item:first-child {
+    color: var(--azul);
+}
