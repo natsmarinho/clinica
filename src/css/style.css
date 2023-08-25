@@ -164,14 +164,16 @@ body {
 }
 
 .rodape-menu {
-    position: relative;
-    top: -109rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .acoes {
     display: flex;
     gap: 2.25rem;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
     border-radius: 0.75rem 0.75rem 0rem 0rem;
     background: var(--branco);
     box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.06);
