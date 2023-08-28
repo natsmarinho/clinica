@@ -180,10 +180,13 @@ body {
     padding-block: 1rem;
 }
 
+
 .btn-flutuante {
     position: absolute;
     right: 0;
     bottom: 4rem;
+    border: none;
+    background-color: transparent;
 }
 
 .acoes-item {
@@ -202,3 +205,35 @@ body {
 .acoes-item:first-child {
     color: var(--azul);
 }
+
+.darkoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--preto);
+    opacity: 0.6;
+    z-index: 2; 
+    display: none;
+}
+
+.opcoes {
+    display: none;
+    z-index: 1111; 
+}
+
+.item-opcoes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    top: -5rem;
+}
+
+.item-opcoes span {
+    background: var(--branco);
+    padding: .3rem;
+    border-radius: 18px;
+}
+
