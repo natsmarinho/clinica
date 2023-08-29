@@ -124,6 +124,7 @@ body {
     font-size: 0.875rem;
     border-radius: 0.5rem;
     box-shadow: var(--shadow-btn-address);
+    cursor: pointer;
 }
 
 .audio {
@@ -132,6 +133,7 @@ body {
     background: var(--branco);
     padding: .81rem 1.7rem;
     color: var(--outer-space-color);
+    cursor: pointer;
 }
 
 .consulta-presencial {
@@ -233,7 +235,37 @@ body {
 
 .item-opcoes span {
     background: var(--branco);
-    padding: .3rem;
     border-radius: 18px;
+}
+
+@media (min-width: 768px) {
+    .container-paciente {
+        margin-inline: 4rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .text, .nome-paciente {
+        font-size: 1.5rem;
+    }
+
+    .days-title {
+        font-size: 2rem;
+        padding-left: 4rem;
+    }
+
+    .paciente img{
+        min-width: 4rem;
+    }
+
+    .tipo-consulta, .consulta-text, .consulta-presencial {
+        font-size: 1rem;
+    }
+
+    .audio, .video, .btn-endereço {
+        font-size: 1.3rem;
+    }
 }
 
