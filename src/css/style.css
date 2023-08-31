@@ -277,11 +277,11 @@ body {
 
 @media screen and (min-width: 1200px) {
     .doctor {
-        padding-left: 10rem;
+        padding-left: 18rem;
     }
 
     .pacientes {
-        margin-left: 15rem;
+        margin-left: 20rem;
     }
 
     .container-paciente {
@@ -300,6 +300,46 @@ body {
 
     .days-title {
         padding-left: 0;
+    }
+
+    .rodape-menu {
+        position: relative;
+    }
+
+    .btn-flutuante {
+        position: fixed;
+    }
+
+    .container-btn {
+        position: fixed;
+        top: 23rem;
+        right: .7rem;
+    }
+
+    .acoes {
+        position: absolute;
+        top: -115rem;
+        flex-direction: column;
+        width: 15%;
+        height: 100vh;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 1rem;
+        padding-top: 4.5rem;
+    }
+
+    .acoes-item {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .acoes-text {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    .acoes-text:hover {
+        font-weight: 700;
     }
 }
 
