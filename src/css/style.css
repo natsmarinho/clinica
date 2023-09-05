@@ -240,6 +240,10 @@ body {
     border-radius: 18px;
 }
 
+.nova-consulta {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .lista-clientes {
         align-items: center;
@@ -272,6 +276,23 @@ body {
 
     .audio, .video, .btn-endereço {
         font-size: 1rem;
+    }
+
+    .container-btn {
+        display: none;
+    }
+
+    .nova-consulta {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin-left: 2rem;
+        padding-top: 4rem;
+    }
+
+    .nova-consulta label {
+        color: var(--cinza);
+        padding-block: 1rem .6rem;
     }
 }
 
