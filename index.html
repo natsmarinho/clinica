@@ -311,7 +311,7 @@
 
     <form class="nova-consulta"> 
         <label for="nome-paciente">Nome do paciente:</label>
-        <input type="text" id="nome-paciente">
+        <input type="text" id="insira-nome-paciente" required class="form-nome-paciente">
         <label for="consulta-presencial-remota">Consulta:</label>
         <select id="consulta-presencial-remota">
             <option value="">Selecione</option>
@@ -319,7 +319,7 @@
             <option value="remota">Remota</option>
         </select>
         <label for="data-consulta">Data da consulta</label>
-        <input type="datetime-local" id="data-consulta">
+        <input type="datetime-local" id="data-consulta" required>
         <label for="obs">Caso tenha alguma observação:</label>
         <textarea id="obs" cols="30" rows="10"></textarea>
         <button>Salvar</button>
